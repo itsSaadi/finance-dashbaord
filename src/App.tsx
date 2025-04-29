@@ -2,7 +2,6 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Dashboard from './pages/Dashboard'
 import AccountDetails from './pages/AccountDetails'
-import { ModeToggle } from './components/mode-toggle'
 
 function App() {
 
@@ -14,7 +13,6 @@ function App() {
           Finance Dashboard
         </h1>
         <div className='cursor-pointer'>
-          <ModeToggle />
         </div>
       </header>
       <Routes>
