@@ -15,7 +15,7 @@ function TransactionsTable({ transactions }: { transactions: any[]}) {
           <TableRow key={tx.id}>
             <TableCell>{new Date(tx.date).toLocaleDateString()}</TableCell>
             <TableCell>{tx.description}</TableCell>
-            <TableCell className="text-right text-cyan-200">${tx.amount}</TableCell>
+            <TableCell className="text-right text-amber-950 dark:text-green-400">${tx.amount}</TableCell>
           </TableRow>
         ))}
       </TableBody>
